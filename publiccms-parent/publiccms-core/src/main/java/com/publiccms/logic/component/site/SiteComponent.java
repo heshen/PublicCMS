@@ -1,11 +1,5 @@
 package com.publiccms.logic.component.site;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.publiccms.common.api.Cache;
 import com.publiccms.common.cache.CacheEntity;
 import com.publiccms.common.cache.CacheEntityFactory;
@@ -16,6 +10,11 @@ import com.publiccms.entities.sys.SysDomain;
 import com.publiccms.entities.sys.SysSite;
 import com.publiccms.logic.service.sys.SysDomainService;
 import com.publiccms.logic.service.sys.SysSiteService;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  *
@@ -101,7 +100,7 @@ public class SiteComponent implements Cache {
     }
 
     /**
-     * @param site
+     * @param siteId
      * @param path
      * @return full file name
      */

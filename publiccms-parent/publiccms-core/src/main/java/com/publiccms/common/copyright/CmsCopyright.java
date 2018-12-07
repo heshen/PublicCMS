@@ -1,15 +1,14 @@
 package com.publiccms.common.copyright;
 
-import java.io.File;
-import java.io.IOException;
-
+import com.publiccms.common.constants.CommonConstants;
+import com.publiccms.common.tools.IpUtils;
+import com.publiccms.common.tools.LicenseUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import com.publiccms.common.constants.CommonConstants;
-import com.publiccms.common.tools.IpUtils;
-import com.publiccms.common.tools.LicenseUtils;
+import java.io.File;
+import java.io.IOException;
 
 /**
  *
